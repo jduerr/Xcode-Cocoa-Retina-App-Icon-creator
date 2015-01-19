@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0836115C1A6CDCBF0095E6DD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0836115A1A6CDCBF0095E6DD /* background.png */; };
+		0836115D1A6CDCBF0095E6DD /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0836115B1A6CDCBF0095E6DD /* background@2x.png */; };
 		08F0F8961A6A54C500391170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F8951A6A54C500391170 /* AppDelegate.m */; };
 		08F0F8981A6A54C500391170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F8971A6A54C500391170 /* main.m */; };
 		08F0F89B1A6A54C500391170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F89A1A6A54C500391170 /* ViewController.m */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0836115A1A6CDCBF0095E6DD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0836115B1A6CDCBF0095E6DD /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		08F0F88F1A6A54C500391170 /* Xcode Retina Icon Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Retina Icon Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F0F8931A6A54C500391170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F0F8941A6A54C500391170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		08F0F8921A6A54C500391170 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0836115A1A6CDCBF0095E6DD /* background.png */,
+				0836115B1A6CDCBF0095E6DD /* background@2x.png */,
 				08F0F8931A6A54C500391170 /* Info.plist */,
 				08F0F8971A6A54C500391170 /* main.m */,
 			);
@@ -197,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F0F89D1A6A54C500391170 /* Images.xcassets in Resources */,
+				0836115C1A6CDCBF0095E6DD /* background.png in Resources */,
+				0836115D1A6CDCBF0095E6DD /* background@2x.png in Resources */,
 				08F0F8A01A6A54C500391170 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +412,7 @@
 				08F0F8B11A6A54C500391170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F0F8B21A6A54C500391170 /* Build configuration list for PBXNativeTarget "Xcode Retina Icon CreatorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +421,7 @@
 				08F0F8B41A6A54C500391170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

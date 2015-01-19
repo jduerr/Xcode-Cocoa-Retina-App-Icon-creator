@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5408C02E-B8A7-4C38-BFF5-C456ED0405F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Xcode Retina Icon Creator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>54BF77F03EBE2C1F0331868953FA9C16E3EAEB82</key>
+		<string>https://github.com/jduerr/Xcode-Cocoa-Retina-App-Icon-creator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode Retina Icon Creator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>54BF77F03EBE2C1F0331868953FA9C16E3EAEB82</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jduerr/Xcode-Cocoa-Retina-App-Icon-creator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54BF77F03EBE2C1F0331868953FA9C16E3EAEB82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54BF77F03EBE2C1F0331868953FA9C16E3EAEB82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode-Cocoa-Retina-App-Icon-creator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
