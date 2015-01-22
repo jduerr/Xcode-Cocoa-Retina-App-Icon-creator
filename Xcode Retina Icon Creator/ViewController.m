@@ -25,10 +25,10 @@
 - (IBAction)imageWellAction:(id)sender {
     // something with the image happened. Lets see if we have one or not
     if (self.imageWell.image != nil) {
-        NSLog(@"have image");
+
         [self saveImagesforImage:self.imageWell.image andFolderName:@"icons"];
     }else{
-        NSLog(@"no image available");
+
     }
 }
 
@@ -62,7 +62,8 @@
                 
                 if (err) {
                     // Alarm user --> Folder cannot be created...
-                    NSLog(@"Folder could not be created!");
+                    NSAlert* alert = [NSAlert alertWithError:err];
+                    [alert runModal];
                 }
             }
             err = nil;
