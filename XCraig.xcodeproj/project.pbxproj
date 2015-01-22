@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0836115C1A6CDCBF0095E6DD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0836115A1A6CDCBF0095E6DD /* background.png */; };
+		0836115D1A6CDCBF0095E6DD /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0836115B1A6CDCBF0095E6DD /* background@2x.png */; };
+		08F0F8961A6A54C500391170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F8951A6A54C500391170 /* AppDelegate.m */; };
+		08F0F8981A6A54C500391170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F8971A6A54C500391170 /* main.m */; };
+		08F0F89B1A6A54C500391170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F89A1A6A54C500391170 /* ViewController.m */; };
+		08F0F89D1A6A54C500391170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F0F89C1A6A54C500391170 /* Images.xcassets */; };
+		08F0F8A01A6A54C500391170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F0F89E1A6A54C500391170 /* Main.storyboard */; };
+		08F0F8AC1A6A54C500391170 /* Xcode_Retina_Icon_CreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0F8AB1A6A54C500391170 /* Xcode_Retina_Icon_CreatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08F0F8A61A6A54C500391170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F0F8871A6A54C400391170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F0F88E1A6A54C500391170;
+			remoteInfo = "Xcode Retina Icon Creator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0836115A1A6CDCBF0095E6DD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0836115B1A6CDCBF0095E6DD /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		08F0F88F1A6A54C500391170 /* Xcode Retina Icon Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Retina Icon Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0F8931A6A54C500391170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F0F8941A6A54C500391170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F0F8951A6A54C500391170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F0F8971A6A54C500391170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F0F8991A6A54C500391170 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08F0F89A1A6A54C500391170 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08F0F89C1A6A54C500391170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08F0F89F1A6A54C500391170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F0F8A51A6A54C500391170 /* XCraigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCraigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0F8AA1A6A54C500391170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F0F8AB1A6A54C500391170 /* Xcode_Retina_Icon_CreatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode_Retina_Icon_CreatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F0F88C1A6A54C500391170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F8A21A6A54C500391170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F0F8861A6A54C400391170 = {
+			isa = PBXGroup;
+			children = (
+				08F0F8911A6A54C500391170 /* Xcode Retina Icon Creator */,
+				08F0F8A81A6A54C500391170 /* Xcode Retina Icon CreatorTests */,
+				08F0F8901A6A54C500391170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F0F8901A6A54C500391170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F88F1A6A54C500391170 /* Xcode Retina Icon Creator.app */,
+				08F0F8A51A6A54C500391170 /* XCraigTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F0F8911A6A54C500391170 /* Xcode Retina Icon Creator */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F8941A6A54C500391170 /* AppDelegate.h */,
+				08F0F8951A6A54C500391170 /* AppDelegate.m */,
+				08F0F8991A6A54C500391170 /* ViewController.h */,
+				08F0F89A1A6A54C500391170 /* ViewController.m */,
+				08F0F89C1A6A54C500391170 /* Images.xcassets */,
+				08F0F89E1A6A54C500391170 /* Main.storyboard */,
+				08F0F8921A6A54C500391170 /* Supporting Files */,
+			);
+			path = "Xcode Retina Icon Creator";
+			sourceTree = "<group>";
+		};
+		08F0F8921A6A54C500391170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0836115A1A6CDCBF0095E6DD /* background.png */,
+				0836115B1A6CDCBF0095E6DD /* background@2x.png */,
+				08F0F8931A6A54C500391170 /* Info.plist */,
+				08F0F8971A6A54C500391170 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F0F8A81A6A54C500391170 /* Xcode Retina Icon CreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F8AB1A6A54C500391170 /* Xcode_Retina_Icon_CreatorTests.m */,
+				08F0F8A91A6A54C500391170 /* Supporting Files */,
+			);
+			path = "Xcode Retina Icon CreatorTests";
+			sourceTree = "<group>";
+		};
+		08F0F8A91A6A54C500391170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F0F8AA1A6A54C500391170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F0F88E1A6A54C500391170 /* XCraig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F0F8AF1A6A54C500391170 /* Build configuration list for PBXNativeTarget "XCraig" */;
+			buildPhases = (
+				08F0F88B1A6A54C500391170 /* Sources */,
+				08F0F88C1A6A54C500391170 /* Frameworks */,
+				08F0F88D1A6A54C500391170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCraig;
+			productName = "Xcode Retina Icon Creator";
+			productReference = 08F0F88F1A6A54C500391170 /* Xcode Retina Icon Creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F0F8A41A6A54C500391170 /* XCraigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F0F8B21A6A54C500391170 /* Build configuration list for PBXNativeTarget "XCraigTests" */;
+			buildPhases = (
+				08F0F8A11A6A54C500391170 /* Sources */,
+				08F0F8A21A6A54C500391170 /* Frameworks */,
+				08F0F8A31A6A54C500391170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F0F8A71A6A54C500391170 /* PBXTargetDependency */,
+			);
+			name = XCraigTests;
+			productName = "Xcode Retina Icon CreatorTests";
+			productReference = 08F0F8A51A6A54C500391170 /* XCraigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F0F8871A6A54C400391170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Johannes Dürr";
+				TargetAttributes = {
+					08F0F88E1A6A54C500391170 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					08F0F8A41A6A54C500391170 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 08F0F88E1A6A54C500391170;
+					};
+				};
+			};
+			buildConfigurationList = 08F0F88A1A6A54C400391170 /* Build configuration list for PBXProject "XCraig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F0F8861A6A54C400391170;
+			productRefGroup = 08F0F8901A6A54C500391170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F0F88E1A6A54C500391170 /* XCraig */,
+				08F0F8A41A6A54C500391170 /* XCraigTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F0F88D1A6A54C500391170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F89D1A6A54C500391170 /* Images.xcassets in Resources */,
+				0836115C1A6CDCBF0095E6DD /* background.png in Resources */,
+				0836115D1A6CDCBF0095E6DD /* background@2x.png in Resources */,
+				08F0F8A01A6A54C500391170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F8A31A6A54C500391170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F0F88B1A6A54C500391170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F89B1A6A54C500391170 /* ViewController.m in Sources */,
+				08F0F8981A6A54C500391170 /* main.m in Sources */,
+				08F0F8961A6A54C500391170 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F0F8A11A6A54C500391170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F8AC1A6A54C500391170 /* Xcode_Retina_Icon_CreatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F0F8A71A6A54C500391170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F0F88E1A6A54C500391170 /* XCraig */;
+			targetProxy = 08F0F8A61A6A54C500391170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08F0F89E1A6A54C500391170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F0F89F1A6A54C500391170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F0F8AD1A6A54C500391170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08F0F8AE1A6A54C500391170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		08F0F8B01A6A54C500391170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Xcode Retina Icon Creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = XCraig;
+			};
+			name = Debug;
+		};
+		08F0F8B11A6A54C500391170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Xcode Retina Icon Creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = XCraig;
+			};
+			name = Release;
+		};
+		08F0F8B31A6A54C500391170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Xcode Retina Icon CreatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = XCraigTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xcode Retina Icon Creator.app/Contents/MacOS/Xcode Retina Icon Creator";
+			};
+			name = Debug;
+		};
+		08F0F8B41A6A54C500391170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Xcode Retina Icon CreatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = XCraigTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xcode Retina Icon Creator.app/Contents/MacOS/Xcode Retina Icon Creator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F0F88A1A6A54C400391170 /* Build configuration list for PBXProject "XCraig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F8AD1A6A54C500391170 /* Debug */,
+				08F0F8AE1A6A54C500391170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F0F8AF1A6A54C500391170 /* Build configuration list for PBXNativeTarget "XCraig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F8B01A6A54C500391170 /* Debug */,
+				08F0F8B11A6A54C500391170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F0F8B21A6A54C500391170 /* Build configuration list for PBXNativeTarget "XCraigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0F8B31A6A54C500391170 /* Debug */,
+				08F0F8B41A6A54C500391170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08F0F8871A6A54C400391170 /* Project object */;
+}
